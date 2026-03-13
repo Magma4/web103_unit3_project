@@ -38,7 +38,7 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented required features:
 
-<video src='./walkthrough.mp4' title='Video Walkthrough' width='800' alt='Video Walkthrough' autoplay loop muted playsinline></video>
+<img src='./walkthrough.gif' title='Video Walkthrough' width='800' alt='Video Walkthrough' />
 
 GIF created with [Kap](https://getkap.co/)
 
