@@ -7,22 +7,41 @@
 
 .location-events header {
     background-color: var(--main-color);
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-    column-gap: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    padding: 40px;
+    width: 100vw;
+    margin-left: calc(-50vw + 50%);
 }
 
 .location-image img {
-    width: 300px;
-    height: auto;
-    border: 1px solid white;
-    margin-left: 20px;
+    height: 300px;
+    width: auto;
+    max-width: 500px;
+    object-fit: cover;
+    border: 3px solid white;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
 }
 
-.location-events header p {
+.location-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     color: white;
-    font-size: 0.8em;
-    margin-bottom: 0px;
+}
+
+.location-info h2 {
+    color: white;
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+.location-info p {
+    color: white;
+    font-size: 1.2em;
+    margin: 0;
 }
 
 .location-events main {
